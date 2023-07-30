@@ -16,6 +16,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-color: #E27802;
   height: 10%; 
   background-size: cover;
   
@@ -36,9 +37,9 @@ body {
   width: 25em;
   height: 22em;
   padding: 20px;
-  background-color: #75708C;
+  background-color: #6A492B ;
   border-radius: 1em;
-  box-shadow: 0 0 5px #726f77; 
+  box-shadow: 0 0 5px #58391C; 
   color: #ffffff;
 }
 
@@ -47,7 +48,7 @@ h2 {
   text-align: center;
   margin-bottom: 45px;
   font-size: 200%;
-  text-shadow: 0 0 5px #cacaca; 
+  text-shadow: 0 0 5px #F88F01; 
 }
 
 p {
@@ -56,7 +57,7 @@ p {
   text-align: center;
   margin-bottom: 45px;
   font-size: 70%;
-  text-shadow: 0 0 5px #cacaca; 
+  text-shadow: 0 0 5px #58391C; 
 }
 
 .form-group {
@@ -70,7 +71,7 @@ label {
 }
 
 .custom-common-container{
-  background-color:#75708C  ;
+  background-color:#58391C  ;
   margin-top: 15px;
   border-radius: 5px;
 }
@@ -79,7 +80,7 @@ label {
 }
 .custom-common-header p {
   font-family: 'Reem kufi';
-  color: #00447c;
+  color: #000000;
   text-decoration: none;
   font-weight: bolder;
   font-size: 25px;
@@ -88,13 +89,12 @@ label {
   padding: 5px;
 }
 .custom-common-header p:hover{
-  color: #00447c;
+  color: #000000;
 }
 
 .custom-common-header a {
   font-family: 'Reem kufi';
-  color: #C7DBF7
-  ;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: bolder;
   font-size: 23px;
@@ -103,7 +103,7 @@ label {
   padding: 5px;
 }
 .custom-common-header a::before {
-  color: #C59594;
+  color: #FFFFFF;
   content: ""; 
   position: absolute; 
   bottom: 0; 
@@ -111,15 +111,33 @@ label {
   transform: translateX(-50%); 
   width: 0; 
   height: 10px;
-  color: #C59594;
-  background-color: #C59594;
+  color: #58391C;
+  background-color: #58391C;
   transition: width 0.3s;
+}
+.custom-common-header a::after {
+  color: #C59594;
+  content: ""; 
+  position: absolute; 
+  bottom: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 0; 
+  height: 2px;
+  color: #58391C;
+  background-color: #F88F01;
+  transition: width 0.5s;
 }
 .custom-common-header a:hover{
   color: #010101;
 }
 .custom-common-header a:hover::before {
   width: 100%; 
+  height: 10%;
+}
+.custom-common-header a:hover::after {
+  width: 100%; 
+  height: 5%;
 }
 
 input[type="text"],
@@ -135,7 +153,7 @@ button {
   width: 100%;
   min-height: 50px;
   margin-top: 40px;
-  background-color: #5d5d5d;
+  background-color: #E27802;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   border: none;
