@@ -196,11 +196,11 @@ select#gender {
         return false;
     }
 
-    var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$/;
+   /* var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$/;
     if (!passwordRegex.test(password)) {
         alert('Password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character.');
         return false;
-    }
+    }*/
 
     // Password match check
     if (password !== confirmPassword) {
